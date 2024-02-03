@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+<meta name="description" content="Građevinski fakultet Subotica">
+<meta name="keywords" content="Илија, Миличић, fakultet, građevinski, Subotica, univerzitet, Novi Sad, upis, Faculty of Civil Engineering, International Conference">
+<meta name="author" content="Илија Миличић">
+<title>Илија М. МИЛИЧИЋ</title>
+<link rel="shortcut icon" href="img/ilija.ico" type="image/x-icon">
+
+
+<!------------------------------------------------------------------>
+<!-- Styles -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/menu.js'></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+ $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      controlsContainer: ".flex-container", 
+	  controlNav: true,
+	  slideshowSpeed: 8000, 
+	  animationLoop: true,
+	  pauseOnAction: true,   
+	  pauseOnHover: true,
+	   start: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "block");
+		  $('ul#menu').hover(
+		  function(){
+            slider.pause();        
+			}
+		);
+        },
+	  before: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "none");        
+    }, 
+        after: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it	 
+         $('.flex-active-slide').find('.flex-caption').fadeIn("400");
+      }
+    });  
+});
+</script>
+
+<!------------------------------------------------------->
+<style>
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+} 
+</style>
+<!-------------------------------------------------------->
+<!------------------------------------------------------------------>
+</head>
+
+<!--------------------------------------------------------- Body ---------------------------------------------------------->
+<table>
+<tbody>
+<tr>
+<td><img src="img/uns.png" alt="Smiley face" height="50" width="50"></td>
+<td> UNIVERSITY OF NOVI SAD <hr /></div> УНИВЕРЗИТЕТ У НОВОМ САДУ </td>
+</tr>
+
+</tbody>
+</table>
+
+<div id="linija"></div>
+<table style="width:100%">
+  	<tr>
+   	<th style="background-color: #FFFFFF;">
+<img src="img/ilija.jpg" class="img-circle" height="115" width="109" alt="praksa" /></th>
+    	<td style="background-color: #FFFFFF;" rowspan="1"><h1 id="ime">проф. др <b>Илија М. МИЛИЧИЋ</b></h1>ВАНРЕДНИ ПРОФЕСОР УНИВЕРЗИТЕТА У НОВОМ САДУ
+	<hr /></div>
+	шеф Катедре за инжењерску механику</td>
+</tr>
+</table>
+
+<div id="linija"></div>
+<ul id="jezik">
+	<li><a href="#">ћир</a></li>
+	<li><a href="#">lat</a></li>
+	<li><a href="#">eng</a></li>
+	</ul>
+<!------------------------------------- ГЛАВНИ МЕНИ ----------------------------------------------------------------------->
+<div id="linija"></div>
+
+
+<nav id="glavni_meni">
+<ul id="glavni">
+	<li><a href="index.html"><img src="img/home.png" alt="kucica" /></a></li>
+	<li><a href="01_biografija.html">Curriculum vitae</a></li>
+	<li><a href="02_osnovne.html">Поверена настава</a></li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a></li>
+	<li><a href="06_mostovi.html">Мостови</a></li>
+	<li><a href="index.html#kontakt">Контакт</a></li>
+	<li><a href="https://plus.google.com/u/0/100868037933547941108/posts"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span>+</p></a></li>
+</ul>
+<!------<li><a href="https://classroom.google.com/h"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span> Classroom</p></a></li>
+</ul>-------!>
+	
+
+<!---------------------------------- ПЛУТАЈУЋИ МЕНИ ----------------------------------------------------------------------->
+
+<div class="flip"><img src="img/home.png" alt="kucica" /> Мени</div>
+<div id='glavni2'>
+<ul>
+
+<li><a href="index.html">Почетна страна</a></li>
+
+<li class='active has-sub'><a href='#'><span>Curriculum vitae</span></a>
+      	<ul>
+<li><a href="01_biografija.html">Биографија</a></li>
+<li><a href="01_1_radovi.html">Научни рад</a></li>
+<li><a href="01_2_radovi.html">Стручни рад</a></li>
+<li><a href="01_3_recenzije.html">Рецензије</a></li>
+<li><a href="01_4_uredjivanje.html">Уређивање часописа</a></li>
+	</ul>
+    	</li>
+   
+<li class='active has-sub'><a href='#'><span>Основне академске студије</span></a>
+
+<ul>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Mehanika%201/M1_predavanja/MEHANIKA%201_1.htm">Механика 1</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Механика 2</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Конструктивни системи</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika/SK_predavanja/SK_1.htm">Статика конструкција</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika%201/SK1_predavanja/STATIKA%201_1.htm">Статика конструкција 1</a></li>
+<li><a href=" ">Мостови</a></li>
+</ul>
+</li>
+
+
+<li class='active has-sub'><a href='#'><span>Мастер академске студије</span></a>
+<ul>
+<li><a href="oas.html">Рачунарско моделирање конструкција</a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Докторске академске студије</span></a>
+<ul>
+<li><a href="oas.html">  </a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Моја истраживања</span></a>
+<ul>
+<li><a href="05_moja_istrazivanja.html">Магистарски рад</a></li>
+<li><a href="05_2_moja_istrazivanja.html">Докторска дисертација</a></li>
+<li><a href="05_3_moja_istrazivanja.html">Етно-еко-пасивна кућа</a></li>
+</ul>
+</li>
+
+<li><a href="06_mostovi.html">Мостови</a></li>
+<li><a href="07_mentorstvo.html">Менторство</a></li>
+
+
+<li class='last'><a href='index.html#kontakt'><span>Контакт</span></a></li>
+	</ul>
+	</div>
+	</nav>
+<div class="clear"></div>
+<div id="linija"></div>
+
+<div class="clear" /></div>
+<!-------------------------------------------------- End Menu ------------------------------------------------------------->
+
+
+
+
+
+
+<!----------------------------------------------- СРЕДЊИ ДЕО ------------------------------------------------------>
+<div id="maincontainer">
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+</div>
+
+<section>
+<h1  id="Металне конструкције"><b>модул</b>: Металне конструкције</h1>
+<ul>
+<li><a target="_blank" href="џџџџџ">Рачунарско моделирање конструкција</a></li>
+</ul>
+</section>
+
+
+<section>
+<h1  id="Бетонске конструкције"><b>модул</b>: Бетонске конструкције</h1>
+<ul>
+<li><a target="_blank" href="џџџ">      </a></li>
+</ul>
+</section>
+
+
+
+
+<!-------------------------- End intertube ---------------------->
+</div>
+</div>
+
+
+
+<!-------------------------------------------------- ЛЕВИ СТУБАЦ ----------------------------------------------->
+<div id="leftcolumn">
+
+<div class="innertube">
+<div class="leftnav">
+<ul>
+	<li><a href="02_osnovne.html">Основне академске студије</a></li>
+	<li><a href="03_master.html">Мастер академске студије</a></li>
+	<li><a href="04_doktorske.html">Докторске академске студије</a></li>
+</ul>
+</br>
+<img src="slike/master.png"></a>
+<div class="small">Мастер академске студије</br></div>
+</div>
+</div>
+</div>
+
+<!-------------------------------------------------- ДЕСНИ СТУБАЦ ----------------------------------------------->
+<div id="rightcolumn">
+<div class="innertube">
+<div id="linija"></div>	
+	<a target="_blank" href="https://www.eduroam.org/"><img src="img/eduroam.png"></a>
+	<div id="linija" /></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+
+
+
+<!-------------------------------------------------- End Wrapper -------------------------------------------------->
+
+<!div id="linija"></div>
+<div id="linija"></div>
+<div class="linija"></div>
+<footer>
+	<section>
+		<ul>
+	<li><a href="index.html">| Почетна</a> |</li>
+	<li><a href="01_biografija.html">Curriculum vitae</a> |</li>
+	<li><a href="02_osnovne.html">Поверена настава</a> |</li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a> |</li>
+	<li><a href="06_mostovi.html">Мостови</a> |</li>
+	<li><a href="index.html#kontakt">Контакт</a> |</li>
+		</ul>
+	</section>
+
+	<section>	
+		<ul>
+	<li><a href="02_osnovne.html">| Основне академске студије</a> |</li>
+	<li><a href="03_master.html">Мастер академске студије</a> |</li>
+	<li><a href="04_doktorske.html">Докторске академске студије</a> |</li>
+	<li><a href="07_mentorstvo.html">Менторство</a> |</li>
+		</ul>
+	</section>	
+	<section>
+		<ul>
+	<li><a href="http://nastavnik.gf.uns.ac.rs/12sawst1r9v9ld12qhv6h1i4se4b/">| Наставнички</a> |</li>
+	<li><a href="http://athos.gf.uns.ac.rs/moodle/">E-learning</a> |</li>
+	<li><a href="http://webmail.gf.uns.ac.rs/">Webmail</a> |</li> 
+	<li><a href="http://www.gf.uns.ac.rs/~zbornik/">Зборник радова Грађевинског факултета |</a></li>	
+		</ul>
+	</section>
+
+<section>&nbsp;</section>
+
+<section><a href="http://www.gf.uns.ac.rs/">www.gf.uns.ac.rs</a></section>
+</footer>	
+<div class="linija"></div>
+<a href="#" class="to_top"></a>
+<script>
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.to_top').fadeIn(duration);
+        } else {
+            jQuery('.to_top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.to_top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+</body>
+</html>

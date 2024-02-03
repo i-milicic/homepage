@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+<meta name="description" content="Građevinski fakultet Subotica">
+<meta name="keywords" content="Илија, Миличић, fakultet, građevinski, Subotica, univerzitet, Novi Sad, upis, Faculty of Civil Engineering, International Conference">
+<meta name="author" content="Илија Миличић">
+<title>Илија М. МИЛИЧИЋ</title>
+<link rel="shortcut icon" href="img/ilija.ico" type="image/x-icon">
+
+
+<!------------------------------------------------------------------>
+<!-- Styles -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/menu.js'></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+ $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      controlsContainer: ".flex-container", 
+	  controlNav: true,
+	  slideshowSpeed: 8000, 
+	  animationLoop: true,
+	  pauseOnAction: true,   
+	  pauseOnHover: true,
+	   start: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "block");
+		  $('ul#menu').hover(
+		  function(){
+            slider.pause();        
+			}
+		);
+        },
+	  before: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "none");        
+    }, 
+        after: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it	 
+         $('.flex-active-slide').find('.flex-caption').fadeIn("400");
+      }
+    });  
+});
+</script>
+
+<!------------------------------------------------------->
+<style>
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+} 
+</style>
+<!-------------------------------------------------------->
+<!------------------------------------------------------------------>
+</head>
+
+<!--------------------------------------------------------- Body ---------------------------------------------------------->
+<table>
+<tbody>
+<tr>
+<td><img src="img/uns.png" alt="Smiley face" height="50" width="50"></td>
+<td> UNIVERSITY OF NOVI SAD <hr /></div> УНИВЕРЗИТЕТ У НОВОМ САДУ </td>
+</tr>
+
+</tbody>
+</table>
+
+<div id="linija"></div>
+<table style="width:100%">
+  	<tr>
+   	<th style="background-color: #FFFFFF;">
+<img src="img/ilija.jpg" class="img-circle" height="115" width="109" alt="praksa" /></th>
+    	<td style="background-color: #FFFFFF;" rowspan="1"><h1 id="ime">проф. др <b>Илија М. МИЛИЧИЋ</b></h1>ВАНРЕДНИ ПРОФЕСОР УНИВЕРЗИТЕТА У НОВОМ САДУ
+	<hr /></div>
+	шеф Катедре за инжењерску механику</td>
+</tr>
+</table>
+
+<div id="linija"></div>
+<ul id="jezik">
+	<li><a href="#">ћир</a></li>
+	<li><a href="#">lat</a></li>
+	<li><a href="#">eng</a></li>
+	</ul>
+<!------------------------------------- ГЛАВНИ МЕНИ ----------------------------------------------------------------------->
+<div id="linija"></div>
+
+
+<nav id="glavni_meni">
+<ul id="glavni">
+	<li><a href="index.html"><img src="img/home.png" alt="kucica" /></a></li>
+	<li><a href="01_biografija.html">Curriculum vitae</a></li>
+	<li><a href="02_osnovne.html">Поверена настава</a></li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a></li>
+	<li><a href="06_mostovi.html">Мостови</a></li>
+	<li><a href="index.html#kontakt">Контакт</a></li>
+	<!-------li><a href="https://plus.google.com/u/0/100868037933547941108/posts"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span>+</p></a></li>
+</ul-------!>
+	<li><a href="https://classroom.google.com/h"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span> Classroom</p></a></li>
+</ul>
+	
+
+<!---------------------------------- ПЛУТАЈУЋИ МЕНИ ----------------------------------------------------------------------->
+
+<div class="flip"><img src="img/home.png" alt="kucica" /> Мени</div>
+<div id='glavni2'>
+<ul>
+
+<li><a href="index.html">Почетна страна</a></li>
+
+<li class='active has-sub'><a href='#'><span>Curriculum vitae</span></a>
+      	<ul>
+<li><a href="01_biografija.html">Биографија</a></li>
+<li><a href="01_1_radovi.html">Научни рад</a></li>
+<li><a href="01_2_radovi.html">Стручни рад</a></li>
+<li><a href="01_3_recenzije.html">Рецензије</a></li>
+<li><a href="01_4_uredjivanje.html">Уређивање часописа</a></li>
+	</ul>
+    	</li>
+   
+<li class='active has-sub'><a href='#'><span>Основне академске студије</span></a>
+
+<ul>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Mehanika%201/M1_predavanja/MEHANIKA%201_1.htm">Механика 1</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Механика 2</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Конструктивни системи</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika/SK_predavanja/SK_1.htm">Статика конструкција</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika%201/SK1_predavanja/STATIKA%201_1.htm">Статика конструкција 1</a></li>
+<li><a href=" ">Мостови</a></li>
+</ul>
+</li>
+
+
+<li class='active has-sub'><a href='#'><span>Мастер академске студије</span></a>
+<ul>
+<li><a href="oas.html">Рачунарско моделирање конструкција</a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Докторске академске студије</span></a>
+<ul>
+<li><a href="oas.html">  </a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Моја истраживања</span></a>
+<ul>
+<li><a href="05_moja_istrazivanja.html">Магистарски рад</a></li>
+<li><a href="05_2_moja_istrazivanja.html">Докторска дисертација</a></li>
+<li><a href="05_3_moja_istrazivanja.html">Етно-еко-пасивна кућа</a></li>
+</ul>
+</li>
+
+<li><a href="06_mostovi.html">Мостови</a></li>
+<li><a href="07_mentorstvo.html">Менторство</a></li>
+
+
+<li class='last'><a href='index.html#kontakt'><span>Контакт</span></a></li>
+	</ul>
+	</div>
+	</nav>
+<div class="clear"></div>
+<div id="linija"></div>
+
+<div class="clear" /></div>
+<!-------------------------------------------------- End Menu ------------------------------------------------------------->
+
+
+
+
+
+
+<!----------------------------------------------- СРЕДЊИ ДЕО ------------------------------------------------------>
+<div id="maincontainer">
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+</div>
+
+<section>
+<h1  id="ilija">Магистарски рад</h1>
+</section>
+
+
+<h3>
+Тема: ПРИЛОГ АНАЛИЗИ КРИТЕРИЈУМА УПОТРЕБЉИВОСТИ МОСТОВСКИХ КОНСТРУКЦИЈА ИНТЕРАКЦИЈОМ РАЧУНАРСКЕ СИМУЛАЦИЈЕ И ЛАСЕРСКОГ 3Д СКЕНИРАЊА
+<br>
+<br>
+<p style="color:red;">Дигитализовани 3Д модел моста - ласерско 3Д скенирање моста</p>
+<br>
+</h3>
+
+<!---------------------------------------------- Flex -->
+<div class="flexslider">
+    <ul class="slides">
+		<li><img src="slike/skeniranje/01.PNG" alt="NG" />
+		<div class="flex-caption polozaj3"></div>
+          	<div class="featureCopy">3Д ласерско скенирање (Cyrax 2500) - леви део главног отвора моста.
+          	<div class="featureCopy">(поглед низводно са леве обале)     
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/skeniranje/02.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+       	 	<div class="featureCopy">Друмски ланчани мост преко реке Тисе на путу Кањижа - Нови Кнежевац.
+          	<div class="featureCopy">(један од објеката научног теоријско експерименталног истраживања)
+		</div></div>
+       		</li> 
+
+       		<li><img src="slike/skeniranje/08.JPG" alt="GFS" />
+          	<div class="flex-caption polozaj3"></div>
+           	<div class="featureCopy">3Д ласерски скенер - Leica Cyrax HD 2500.
+          	<div class="featureCopy">(оператери: Угљеша и Марко)     
+		</div></div>
+       		</li> 
+
+       		<li><img src="slike/skeniranje/03.PNG" alt="GFS" />
+          	<div class="flex-caption polozaj3"></div>
+           	<div class="featureCopy">3Д ласерско скенирање - средњи део главног отвора моста.
+          	<div class="featureCopy">(поглед низводно са леве обале)
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/skeniranje/04.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+       	 	<div class="featureCopy">Друмски ланчани мост преко реке Тисе на путу Кањижа - Нови Кнежевац.
+          	<div class="featureCopy">(један од објеката научног, теоријско експерименталног истраживања)
+		</div></div>
+       		</li> 
+
+       		<li><img src="slike/skeniranje/07.JPG" alt="GFS" />
+          	<div class="flex-caption polozaj3"></div>
+           	<div class="featureCopy">3Д ласерско скенирање - Leica Cyrax HD 2500.
+          	<div class="featureCopy">(дана: 03.VI.2003. године)
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/skeniranje/05.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+		<div class="featureCopy">3Д ласерско скенирање - леви део главног отвора моста.
+          	<div class="featureCopy">(поглед низводно са леве обале) 
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/skeniranje/06.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+		<div class="featureCopy">3Д ласерско скенирање - главни отвор моста.
+          	<div class="featureCopy">(поглед низводно са леве обале)
+		</div></div> 
+	 	</li>        
+      	</ul>   
+</div>
+<!------------------------- End Flex -->
+
+<br>
+<h3>
+<p style="color:red;">Поступак 3Д ласерског скенирања ( ... кликом на стрелицу доле покрените презентацију )</p>
+</h3>
+</br>
+
+<object width="100%" height="480" data="http://www.gf.uns.ac.rs/~milicic/1/Magistarski/Skeniranje/Skeniranje.swf"></object>
+
+<br>
+<br>
+<h3><p style="color:red;">Геометријски 3Д модел моста - читање вертикалних померања</p></h3>
+<br>
+<!---------------------------------------------- Flex -->
+<div class="flexslider">
+	<ul class="slides">
+		<li><img src="slike/mMerenje/01.PNG" alt="NG" />
+		<div class="flex-caption polozaj3"></div>
+          	<div class="featureCopy">Layer 1 - 3Д облак тачака.
+          	<div class="featureCopy">(неоптерећен мост)       
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/mMerenje/02.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+       	 	<div class="featureCopy">Layer 2 - 3Д облак тачака.
+          	<div class="featureCopy">(оптерећен мост)      
+		</div></div>
+       		</li> 
+
+       		<li><img src="slike/mMerenje/03.PNG" alt="GFS" />
+          	<div class="flex-caption polozaj3"></div>
+           	<div class="featureCopy">Преклопљени Layer 1 преко Layer 2.
+          	<div class="featureCopy">(читање хоризонталних и вертикалних померања)
+		</div></div>
+ 		</li>     
+      	</ul>
+</div>   
+<!----------------------------->	
+</div>
+</div>
+<!-------------------------- End intertube ---------------------->
+
+
+<!-------------------------------------------------- ЛЕВИ СТУБАЦ ----------------------------------------------->
+<div id="leftcolumn">
+
+<div class="innertube">
+<div class="leftnav">
+<ul>
+	<li><a href="05_moja_istrazivanja.html">Магистарски рад</a></li>
+	<li><a href="05_2_moja_istrazivanja.html">Докторска дисертација</a></li>
+	<li><a href="05_3_moja_istrazivanja.html">Етно-еко-пасивна кућа</a></li>
+</ul>
+</div>
+
+
+<!------------ Flex ------------>
+<br>
+
+<div class="flexslider">
+    <ul class="slides">
+        	<li><img src="slike/modeliranje_simulacija/02.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+       	 	<div class="featureCopy">Прва фаза - лево постављено симетрично оптерећење.
+          	<div class="featureCopy">(деформација модела, SAP2000n )       
+		</div></div>
+       		</li> 
+
+       		<li><img src="slike/modeliranje_simulacija/03.PNG" alt="GFS" />
+          	<div class="flex-caption polozaj3"></div>
+           	<div class="featureCopy">Друга фаза - лево постављено несиметрично оптерећење.
+          	<div class="featureCopy">(деформација модела, SAP2000n)
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/modeliranje_simulacija/04.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+       	 	<div class="featureCopy">Трећа фаза - десно постављено симетрично оптерећење.
+          	<div class="featureCopy">(деформација модела, SAP2000n)
+		</div></div>
+  		</li>
+
+        	<li><img src="slike/modeliranje_simulacija/05.PNG" alt="NG" />
+        	<div class="flex-caption polozaj3"></div>
+		<div class="featureCopy">Четврта фаза - десно постављено несиметрично оптерећење.
+          	<div class="featureCopy">(деформација модела, SAP2000n)
+		</div></div>
+		</li>        
+      	</ul>   
+    	</div>
+
+<!----------- End Flex --------->
+<!/div>
+
+<br>
+<section>
+<div class="small"><a href="http://www.gf.uns.ac.rs/~milicic/1/Magistarski/IMM_Magistarski_brosura/index.html" target="_blank">Магистарски рад - краћи извод</a></br></div>
+</section>
+
+<br>
+<h3>
+<b>Резиме:</b>
+У истраживању који је пре-дмет овог рада, полази се од чиње-нице да се код мостовских конст-рукција у току екплоатације појав-љују дефекти, који могу да угрозе безбедност саобраћаја услед нару-шавања пројектоване нивелете моста, а исто тако и његову лока-лну и глобалну стабилност. Про-мене у понашању конструкције ана-лизирају се са гледишта употреб-љивости као једног од критеријума којим се задовољавају прописани захтеви. На тај начин дефинисана је и та посебна сфера инжењерског интересовања.  
+
+<p> У раду је посебна пажња покло-њена инжењерском приступу ра-чунским моделима, моделирању уопште, класификацији модела са посебним освртом на интеракцију базних параметара. Успостављена је оцена прорачунских модела на основу степена поузданости описа стварног понашања мостовских конструкција као основног усвојеног критеријума.</p> 
+
+<p> Исто тако установљен је и крите-ријум корисничке угодности као један од услова за избор програм-ског пакета за статички прорачун, кроз успостављање боље интерак-ције рачунарских програма CAD – CAA окружења.</p> 
+
+<p> Кроз преглед домаће и европске техничке регулативе, дата је препорука за усклађивање стан-дарда који се односе на делове техничке документације с обзиром на прорачун конструкција приме-ном рачунарских програма, као и доследније поштовање важећих прописа. </p>
+
+<p> Предложена методологија у овом раду илустрована је на примеру испитивања друмског ланчаног моста преко реке Тисе "Мост Победе" на путу Кањижа – Нови Кнежевац, под утицајем статичког пробног оптерећења. Системом за мерење и моделирање Cyra Tech-nologies, Inc. ласерским скенира-њем, приликом испитивања, утвр-ђена је промена геометрије ви-талних конструктивних елемената моста. Анализом података нивел-манске оскултације и ласерског 3Д скенирања промене геометрије, уз помоћ рачунарских симулације, успоставњени су одговарајући кри-теријуми употребљивости посмат-раног моста.</p>
+  
+<p> Као мера од посебног значаја ин-систира се на ХИТНОЈ, неодлож-ној и свеобухватној реализацији санације виталних елемената кон-струкције друмског моста преко реке Тисе на путу Кањижа – Нови Кнежевац.</p>
+</h3>   
+
+<h3>
+<br>
+<b>Кључне речи:</b> 
+анализа, мостови, модели и моделирање, прорачун-ски модел, интеракција програма CAD–CAA, програмско окружење за CAA, симулација, мерење, 3Д ла-серско скенирање, употребљивост конструкција, стабилност конструк-ција.
+</br></h3>
+
+</div>
+</div>
+
+
+<!-------------------------------------------------- ДЕСНИ СТУБАЦ ----------------------------------------------->
+<div id="rightcolumn">
+<div class="innertube">
+<div id="linija"></div>	
+	<a target="_blank" href="https://www.eduroam.org/"><img src="img/eduroam.png"></a>
+	<div id="linija" /></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+
+<!-------------------------------------------------- End Wrapper -------------------------------------------------->
+
+<!div id="linija"></div>
+<div id="linija"></div>
+<div class="linija"></div>
+<footer>
+	<section>
+		<ul>
+	<li><a href="index.html">| Почетна</a> |</li>
+	<li><a href="01_biografija.html">Curriculum vitae</a> |</li>
+	<li><a href="02_osnovne.html">Поверена настава</a> |</li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a> |</li>
+	<li><a href="06_mostovi.html">Мостови</a> |</li>
+	<li><a href="index.html#kontakt">Контакт</a> |</li>
+		</ul>
+	</section>
+
+	<section>	
+		<ul>
+	<li><a href="02_osnovne.html">| Основне академске студије</a> |</li>
+	<li><a href="03_master.html">Мастер академске студије</a> |</li>
+	<li><a href="04_doktorske.html">Докторске академске студије</a> |</li>
+	<li><a href="07_mentorstvo.html">Менторство</a> |</li>
+		</ul>
+	</section>	
+	<section>
+		<ul>
+	<li><a href="http://nastavnik.gf.uns.ac.rs/12sawst1r9v9ld12qhv6h1i4se4b/">| Наставнички</a> |</li>
+	<li><a href="http://athos.gf.uns.ac.rs/moodle/">E-learning</a> |</li>
+	<li><a href="http://webmail.gf.uns.ac.rs/">Webmail</a> |</li> 
+	<li><a href="http://www.gf.uns.ac.rs/~zbornik/">Зборник радова Грађевинског факултета |</a></li>	
+		</ul>
+	</section>
+
+<section>&nbsp;</section>
+
+<section><a href="http://www.gf.uns.ac.rs/">www.gf.uns.ac.rs</a></section>
+</footer>	
+<div class="linija"></div>
+<a href="#" class="to_top"></a>
+<script>
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.to_top').fadeIn(duration);
+        } else {
+            jQuery('.to_top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.to_top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+</body>
+</html>

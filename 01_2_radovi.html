@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+<meta name="description" content="Građevinski fakultet Subotica">
+<meta name="keywords" content="Илија, Миличић, fakultet, građevinski, Subotica, univerzitet, Novi Sad, upis, Faculty of Civil Engineering, International Conference">
+<meta name="author" content="Илија Миличић">
+<title>Илија М. МИЛИЧИЋ</title>
+<link rel="shortcut icon" href="img/ilija.ico" type="image/x-icon">
+
+
+<!------------------------------------------------------------------>
+<!-- Styles -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+<!-- Scripts -->
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<script type='text/javascript' src='js/menu.js'></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+ $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "fade",
+      controlsContainer: ".flex-container", 
+	  controlNav: true,
+	  slideshowSpeed: 8000, 
+	  animationLoop: true,
+	  pauseOnAction: true,   
+	  pauseOnHover: true,
+	   start: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "block");
+		  $('ul#menu').hover(
+		  function(){
+            slider.pause();        
+			}
+		);
+        },
+	  before: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it
+         $('.flex-active-slide').find('.flex-caption').css("display", "none");        
+    }, 
+        after: function(slider) {
+         // animate your caption ... 
+         // find the item that is the current slide's .slidecaption and animate it	 
+         $('.flex-active-slide').find('.flex-caption').fadeIn("400");
+      }
+    });  
+});
+</script>
+
+<!------------------------------------------------------->
+<style>
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.5px;
+} 
+</style>
+<!-------------------------------------------------------->
+<!------------------------------------------------------------------>
+</head>
+
+<!--------------------------------------------------------- Body ---------------------------------------------------------->
+<table>
+<tbody>
+<tr>
+<td><img src="img/uns.png" alt="Smiley face" height="50" width="50"></td>
+<td> UNIVERSITY OF NOVI SAD <hr /></div> УНИВЕРЗИТЕТ У НОВОМ САДУ </td>
+</tr>
+
+</tbody>
+</table>
+
+<div id="linija"></div>
+<table style="width:100%">
+  	<tr>
+   	<th style="background-color: #FFFFFF;">
+<img src="img/ilija.jpg" class="img-circle" height="115" width="109" alt="praksa" /></th>
+    	<td style="background-color: #FFFFFF;" rowspan="1"><h1 id="ime">проф. др <b>Илија М. МИЛИЧИЋ</b></h1>ВАНРЕДНИ ПРОФЕСОР УНИВЕРЗИТЕТА У НОВОМ САДУ
+	<hr /></div>
+	шеф Катедре за инжењерску механику</td>
+</tr>
+</table>
+
+<div id="linija"></div>
+<ul id="jezik">
+	<li><a href="#">ћир</a></li>
+	<li><a href="#">lat</a></li>
+	<li><a href="#">eng</a></li>
+	</ul>
+<!------------------------------------- ГЛАВНИ МЕНИ ----------------------------------------------------------------------->
+<div id="linija"></div>
+
+
+<nav id="glavni_meni">
+<ul id="glavni">
+	<li><a href="index.html"><img src="img/home.png" alt="kucica" /></a></li>
+	<li><a href="01_biografija.html">Curriculum vitae</a></li>
+	<li><a href="02_osnovne.html">Поверена настава</a></li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a></li>
+	<li><a href="06_mostovi.html">Мостови</a></li>
+	<li><a href="index.html#kontakt">Контакт</a></li>
+	<!-------li><a href="https://plus.google.com/u/0/100868037933547941108/posts"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span>+</p></a></li>
+</ul-------!>
+	<li><a href="https://classroom.google.com/h"> <p><span style="color: #0000ff;">G</span><span style="color: #ff0000;">o</span><span style="color: #ffcc00;">o</span><span style="color: #0000ff;">g</span><span style="color: #008000;">l</span><span style="color: #ff0000;">e</span> Classroom</p></a></li>
+</ul>
+
+
+<!---------------------------------- ПЛУТАЈУЋИ МЕНИ ----------------------------------------------------------------------->
+
+<div class="flip"><img src="img/home.png" alt="kucica" /> Мени</div>
+<div id='glavni2'>
+<ul>
+
+<li><a href="index.html">Почетна страна</a></li>
+
+<li class='active has-sub'><a href='#'><span>Curriculum vitae</span></a>
+      	<ul>
+<li><a href="01_biografija.html">Биографија</a></li>
+<li><a href="01_1_radovi.html">Научни рад</a></li>
+<li><a href="01_2_radovi.html">Стручни рад</a></li>
+<li><a href="01_3_recenzije.html">Рецензије</a></li>
+<li><a href="01_4_uredjivanje.html">Уређивање часописа</a></li>
+	</ul>
+    	</li>
+   
+<li class='active has-sub'><a href='#'><span>Основне академске студије</span></a>
+
+<ul>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Mehanika%201/M1_predavanja/MEHANIKA%201_1.htm">Механика 1</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Механика 2</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/KS/KS_predavanja/KS%201_1.htm">Конструктивни системи</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika/SK_predavanja/SK_1.htm">Статика конструкција</a></li>
+<li><a href="http://www.gf.uns.ac.rs/~milicic/Statika%201/SK1_predavanja/STATIKA%201_1.htm">Статика конструкција 1</a></li>
+<li><a href=" ">Мостови</a></li>
+</ul>
+</li>
+
+
+<li class='active has-sub'><a href='#'><span>Мастер академске студије</span></a>
+<ul>
+<li><a href="oas.html">Рачунарско моделирање конструкција</a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Докторске академске студије</span></a>
+<ul>
+<li><a href="oas.html">  </a></li>
+</ul>
+</li>
+
+<li class='active has-sub'><a href='#'><span>Моја истраживања</span></a>
+<ul>
+<li><a href="05_moja_istrazivanja.html">Магистарски рад</a></li>
+<li><a href="05_2_moja_istrazivanja.html">Докторска дисертација</a></li>
+<li><a href="05_3_moja_istrazivanja.html">Етно-еко-пасивна кућа</a></li>
+</ul>
+</li>
+
+<li><a href="06_mostovi.html">Мостови</a></li>
+<li><a href="07_mentorstvo.html">Менторство</a></li>
+
+
+<li class='last'><a href='index.html#kontakt'><span>Контакт</span></a></li>
+	</ul>
+	</div>
+	</nav>
+<div class="clear"></div>
+<div id="linija"></div>
+
+<div class="clear" /></div>
+<!-------------------------------------------------- End Menu ------------------------------------------------------------->
+
+
+
+
+
+
+<!----------------------------------------------- СРЕДЊИ ДЕО ------------------------------------------------------>
+<div id="maincontainer">
+<div id="contentwrapper">
+<div id="contentcolumn">
+<div class="innertube">
+</div>
+
+<section>
+<h1  id="ilija">Стручни радови</h1>
+<table  class="sivo2">
+</section>
+
+<h3>
+<tr>
+<td><span class="redni broj"><center><b>1.</b></center></span></td>
+<td><a><b>Студије и експертизе</b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+<tr>
+<td><span class="datum">1997</span></td>
+<td><a>Анализа и оцена стања објекта – зграде "Народно позориште" у Суботици, централно грејање и климатизација, руководиоци и координатори проф. др Драган Д. Милашиновић, дипл.инж.грађ., и мр Слободан Грковић, дипл.инж.грађ., носилац задатка проф. др Ђерђ Шефчић, дипл.инж.маш., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>ГП "ГРАД – ИНГ", Народног фронта 73, Нови Сад, Складиште "Ш – КОМЕРЦ", М. Миљанова 7а, одговорни пројектанти проф. др Петар Сантрач, дипл.инж.грађ., и мр Слободан Грковић, дипл.инж.грађ., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">2000</span></td>
+<td><a>Riverbank Damages on the Danube sector in Novi Sad from 1252+000 to 1260+000, Public Authority Water Management Company "Srbija vode", Belgrade (JVP "Srbijavode"), Record on Damages and Proposal of Reconstruction, Number: EH – 02/2002, February 2002, заједно са проф. др Срђаном Колаковићем, дипл.инж.грађ., проф. др Фабианом Ђула, дипл.инж.грађ., Маринком Илић, дипл.инж.грађ., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">2004</span></td>
+<td><a>Извештај о прегледу зграде ОШ "1. октобар" у Башаиду са стручним мишљењем, ТМТК – 001/04, заједно са проф. др Александром Прокић, дипл.инж.грађ., |носилац задатка|.
+</tr>
+
+<tr>
+<td><span class="datum">2004</span></td>
+<td><a>Програм испитивања спрегнуте међуспратне конструкције у дограђеном складишту фабрике колача "Банини" у Кикинди под утицајем статичког и динамичког пробног оптерећења, заједно са проф. др Љубомиром М. Влајићем, дипл.инж.грађ., |коаутор|.
+</tr>
+
+<tr>
+<td><span class="datum">2004</span></td>
+<td><a>Елаборат о испитивању спрегнуте међуспратне конструкције у дограђеном складишту фабрике колача "Банини" у Кикинди под утицајем статичког и динамичког пробног оптерећења, ТМТК – 002/04, носиоц задатка проф. др Љубомир М. Влајић, дипл.инж.грађ., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">2009</span></td>
+<td><a>Прилог стратегији развоја општине Пелагићево – циљеви, концепција и стратешки приоритети одрживог развоја за потребе просторног планирања општине Пелагићево, студија, |аутор|
+</tr>
+
+<tr>
+<td><span class="datum">2010</span></td>
+<td><a>Програм за анализу и оцену стања у понашању грађевинских конструкција у експлоатацији верског објекта – зграде православног храма св. Козме и Дамјана у Кикинди.
+</tr>
+
+<tr>
+<td><span class="datum">2010</span></td>
+<td><a>Српска православна црквена општина Кикинда, Извештај о прегледу храма св. Козме и Дамјана у Кикинди са стручним мишљењем, ТМТК – 001/10, Грађевински факултет Суботица, Универзитет у Новом Саду, |носилац задатка|
+</tr>
+
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b>2.</b></center></span></td>
+<td><a><b>Пројектно техничка документација</b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+
+<tr>
+<td><span class="datum">1995</span></td>
+<td><a>Универзитет у Новом Саду, Грађевински факултет Суботица, Зграда за смештај наставног особља Грађевинског факултета у Суботици, идејни пројекат у две варијанте, Е – 02/95, Е – 03/95, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., |коаутор|.
+</tr>
+
+<tr>
+<td><span class="datum">1996</span></td>
+<td><a>СРЦ "Дудова шума" Суботица, Завод за водопривреду доо.по. Суботица, Трг Лазара Нешића 9/А, инсталација базенске технике, главни машински пројекат, пројектант проф. др Ђерђ Шефчић, бр.: Е – 78/95, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1997</span></td>
+<td><a>Топлана "Горњи Земун", Главни погонски објекат са анексом, Компјутерски прорачун темеља објекта, "Београдске електране" Београд, свеска КИ/1.3, ЕГ – 28а/97, одговорни пројектант проф. др Петар Сантрач, дипл.инж.грађ., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">1997</span></td>
+<td><a>Топлана "Горњи Земун" Главни погонски објекат са анексом, статички прорачун темеља објекта "Београдске електране" Београд, свеска КИ/1.3.1, ЕГ 28/97, одговорни пројектант проф. др Петар Сантрач, дипл.инж.грађ., |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1997</span></td>
+<td><a>"Потиски водоводи" Хоргош, Постројење за пречишћавање отпадних вода Кањижа, свеска 2, ЕГ – 31/97, одговорни пројектант проф. др Петар Сантрач, дипл.инж.грађ., |сарадник за конструкцију|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Република Србија, Окружни суд – Суботица, Гаража за особна возила са складиштем, главни пројекат, АГ део, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., Е/АГ – 2/98, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Република Србија, Окружни суд – Суботица, надоградња дела зграде суда, реконструкција дилатационих разделница и улазног платоа, главни пројекат, АГ део, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., Е/АГ – 4/98, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Република Србија, Окружни суд – Суботица, Портирница за контролу улаза – излаза у комплекс, главни пројекат, АГ део, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., Е/АГ – 3/98, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Република Србија, Окружни суд – Суботица, Гаража за особна возила са складиштем, главни машински пројекат, одговорни пројектант проф. др Ђерђ Шефчић, М – 2/99, бр.: 04 – 22/99, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Република Србија, Окружни суд – Суботица, Надоградња дела зграде суда, главни машински пројекат, одговорни пројектант проф. др Ђерђ Шефчић, дипл.инж.маш., М – 3/99, бр.: 04 – 22/99, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1999</span></td>
+<td><a>Републичка дирекција за обнову земље, Урбинг Д.П. Суботица, Типска индивидуална стамбена зграда СУ – 6 ТИП – 120, власник Матић Рајко, Нови Сад, Јована Виловца бр.: 4, К.П. 2673 и 2674, главни пројекат, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., Е – 1/99, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="datum">1999</span></td>
+<td><a>Републичка дирекција за обнову земље, Урбинг Д.П. Суботица, Типска индивидуална стамбена зграда СУ – 6 ТИП – 120, власник Кнежевић Слободан, Сомбор, Вука Караџића бр. 58, К.П. 4835/17, главни пројекат, одговорни пројектант мр Никола Илинчић, дипл.инж.арх., Е – 2/99, |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b>3.</b></center></span></td>
+<td><a><b>Техничка контрола техничке документације</b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Завршни извештај о стручној контроли техничке документације, објекат: Доградња, надоградња и реконструкција објекта "МАЛА ГОСТИОНА" на Палићу, инвеститор "ELITE" ("ELITTE") – ПАЛИЋ д.о.о. за туризам и угоститељство, пројекат термотехничких инсталација, носилац задатка проф. др Ђерђ Шефчић, |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">1998</span></td>
+<td><a>Завршни извештај о стручној контроли техничке документације, објекат "ТРЖНИ ЦЕНТАР" – доградња хотела "СЛОБОДЕ" у Сомбору, инвеститор: Хотелско туристичко угоститељско предузеће "СЛОБОДА" Сомбор, идејни пројекат АГ део, носилац задатка мр Никола Илинчић, дипл.инж.арх., |сарадник|.
+</tr>
+
+<tr>
+<td><span class="datum">1999</span></td>
+<td><a>Завршни извештај о стручној контроли техничке документације, објекат: ГАРНИ ХОТЕЛ НА ПАЛИЋУ, инвеститор: ДД за туризам и угоститељство "Палић" п.о., Суботица, главни пројекат, архитектонско – грађевински део, носилац задатка мр Никола Илинчић, дипл.инж.арх., |сарадник|.
+</tr>
+
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b>4.</b></center></span></td>
+<td><a><b>Извођење објеката, стручни надзор над извођењем</b>
+</tr>
+
+<tr>
+<td><span class="redni broj"><center><b></b></center></span></td>
+<td><a><b></b>
+</tr>
+
+
+<tr>
+<td><span class="datum">2000</span></td>
+<td><a>Надзор над извођењем асфалтног пута у Пелагићеву (РС), у дужини од 2700m, инвеститор СО Пелагићево, извођач радова ОДП "Добој путеви", овлашћење бр.: 002 – 052 – 87/2000 од 18.07.2000.
+</tr>
+
+<tr>
+<td><span class="datum">2000</span></td>
+<td><a>Надзор над извођењем темеља Српске православне цркве у Баткуши (РС), инвеститор СП Општина Баткуша, овлашћење од 20.09.2000.
+</tr>
+
+<tr>
+<td><span class="datum">2000</span></td>
+<td><a>Надзор над извођењем асфалтног платоа бензинске пумпе у Пелагићеву, инвеститор ПП "СМ – ПРОМЕТ" Пелагићево, извођач радова ОДП "Добој путеви", овлашћење бр.: 12 – 06/2000 од 18.08.2000.
+</tr>
+
+<tr>
+<td><span class="datum">2000</span></td>
+<td><a>Монтажа постројења за сепарацију и производњу агрегата за бетон капацитета 60 m3/сату, инвеститор ПП "СМ – ПРОМЕТ" Пелагићево (РС), овлашћење бр.: 13 – 06/2000, јул/август 2000.
+</tr>
+
+</h3>
+</table>
+</section>
+</div><!---------------------------- End средњи део ----------------------------->
+</div>
+
+
+
+<!-------------------------------------------------- ЛЕВИ СТУБАЦ ----------------------------------------------->
+<div id="leftcolumn">
+<div class="innertube">
+<div class="leftnav">
+<ul>
+	<li><a href="01_biografija.html">Биографија</a></li>
+	<li><a href="01_1_radovi.html">Научни рад</a></li>
+	<li><a href="01_2_radovi.html">Стручни рад</a></li>
+	<li><a href="01_3_recenzije.html">Рецензије</a></li>
+	<li><a href="01_4_uredjivanje.html">Уређивање часописа</a></li>
+</ul>
+</div>
+
+<br>
+<section>
+<div id="linija" /></div>
+<img src="slike/svetosavski_dom_ki/svetosavski_dom_kikinda.jpg"></a>
+<div id="linija" /></div>
+
+<div class="small">Светосавски дом при храму Козме и Дамјана у Кикинди, 2014.</div>
+
+<div id="linija" /></div>
+<video preload="none" class="TagVideoHTML5" style="width:100%; height:100%;" src="slike/svetosavski_dom_ki/Svetosavski_dom_Kikinda.mp4" autoplay="autoplay" loop="loop"></video>
+<div id="linija" /></div>
+
+</section>
+</div>
+</div>
+
+
+<!-------------------------------------------------- ДЕСНИ СТУБАЦ ----------------------------------------------->
+<div id="rightcolumn">
+<div class="innertube">
+<div id="linija"></div>	
+	<a target="_blank" href="https://www.eduroam.org/"><img src="img/eduroam.png"></a>
+	<div id="linija" /></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+
+
+<!-------------------------------------------------- End Wrapper -------------------------------------------------->
+
+<!div id="linija"></div>
+<div id="linija"></div>
+<div class="linija"></div>
+<footer>
+	<section>
+		<ul>
+	<li><a href="index.html">| Почетна</a> |</li>
+	<li><a href="01_biografija.html">Curriculum vitae</a> |</li>
+	<li><a href="02_osnovne.html">Поверена настава</a> |</li>
+	<li><a href="05_moja_istrazivanja.html">Моја истраживања</a> |</li>
+	<li><a href="06_mostovi.html">Мостови</a> |</li>
+	<li><a href="index.html#kontakt">Контакт</a> |</li>
+		</ul>
+	</section>
+	<section>	
+		<ul>
+	<li><a href="02_osnovne.html">| Основне академске студије</a> |</li>
+	<li><a href="03_master.html">Мастер академске студије</a> |</li>
+	<li><a href="04_doktorske.html">Докторске академске студије</a> |</li>
+	<li><a href="07_mentorstvo.html">Менторство</a> |</li>
+		</ul>
+	</section>	
+	<section>
+		<ul>
+	<li><a href="http://nastavnik.gf.uns.ac.rs/12sawst1r9v9ld12qhv6h1i4se4b/">| Наставнички</a> |</li>
+	<li><a href="http://athos.gf.uns.ac.rs/moodle/">E-learning</a> |</li>
+	<li><a href="http://webmail.gf.uns.ac.rs/">Webmail</a> |</li> 
+	<li><a href="http://www.gf.uns.ac.rs/~zbornik/">Зборник радова Грађевинског факултета |</a></li>	
+		</ul>
+	</section>
+
+<section>&nbsp;</section>
+
+<section><a href="http://www.gf.uns.ac.rs/">www.gf.uns.ac.rs</a></section>
+</footer>	
+<div class="linija"></div>
+<a href="#" class="to_top"></a>
+<script>
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.to_top').fadeIn(duration);
+        } else {
+            jQuery('.to_top').fadeOut(duration);
+        }
+    });
+    
+    jQuery('.to_top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+</body>
+</html>
